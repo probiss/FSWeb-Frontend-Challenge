@@ -1,0 +1,106 @@
+header{
+    padding-left: 125px;
+    padding-right: 175px;
+    height: 516px;
+    display:flex;
+}
+
+.div1{
+    width:60%;
+}
+
+.div1 h4{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    align-content: center;
+    color: #4338CA;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    gap:10px;
+    margin-top: 0;
+    margin-left: 0;
+    padding-top: 88px;
+}
+
+.div1 hr {
+    width:102px;
+    color:#4338CA;
+    height: 1px;
+}
+
+.div1 h2 {
+    font-size: 72px;
+    color:#1F2937;
+    line-height: 72px;
+    font-weight: 700;
+    width: 596px;
+    height: 144px;
+    padding-top: 40px;
+}
+
+.div1 p{
+    width: 553px;
+    height: 84px;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    padding-top: 80px;
+    color:#6B7280;
+}
+.links {
+    padding-top: 40px;
+}
+
+.links a{
+    border:1px solid #3730A3;
+    border-radius: 6px;
+    text-decoration: none;
+    display: flex-start;
+    justify-content: space-around;;
+    align-items: center;
+    align-content: center;
+    margin-right: 11px;
+}
+
+.a11{
+    padding: 12px 32px;
+    width: 67px;
+    background-color:#3730A3;
+    color:#FFFFFF;
+    font-weight:500;
+    font-size:18px;
+    line-height: 28px;
+}
+
+.a22{
+    padding: 12px 20px 12px 12px;
+    width: 59px;
+    color:#3730A3;
+    font-weight:500;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.a33{
+    padding: 12px 20px 12px 12px;
+    width: 73px;
+    color:#3730A3;
+    font-weight:500;
+    font-size: 18px;
+    line-height: 28px;
+}
+.github {
+    font-size: 20px;
+}
+
+.linkedin{
+    font-size: 20px;
+}
+.div2 img {
+    width: 476px;
+    height: 375px;
+    border-radius: 18px;
+    margin-top: 121px;
+}

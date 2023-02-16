@@ -1,0 +1,36 @@
+.able-container {
+    padding-left: 125px;
+    padding-right: 175px;
+    padding-bottom: 42px;
+    padding-top: 11px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.able{
+    width:30;
+    max-width: 1140px;
+    height: 104px;
+}
+
+.h2-able{
+    width: 236px;
+    height: 28px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 28px;
+    color: #4338CA;
+}
+
+.p-able{
+    padding-top: 28px;
+    width: 300px;
+    height: 48px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #6B7280;
+
+}
+
