@@ -6,7 +6,7 @@ import "../Styles/Projects.css";
 const Projects = () => {
     return (
         <div>
-            <div className="projects">
+            <div className="projects" id="projects">
                 <h1 className="div-h1"> Projects </h1>
             </div>
             <div className="projects-container" >
@@ -20,7 +20,7 @@ const Projects = () => {
                 Bundler and is available as a NPM package 
                 and the git repository makes any type of 
                 customization to code and themes possible."
-                    list1="React"
+                    list1="react"
                     list2="redux"
                     list3="axios"
                     url1=""
@@ -36,7 +36,7 @@ const Projects = () => {
                 Bundler and is available as a NPM package 
                 and the git repository makes any type of 
                 customization to code and themes possible."
-                    list1="React"
+                    list1="react"
                     list2="redux"
                     list3="axios"
                     url1=""
@@ -52,7 +52,7 @@ const Projects = () => {
                 Bundler and is available as a NPM package 
                 and the git repository makes any type of 
                 customization to code and themes possible."
-                    list1="React"
+                    list1="react"
                     list2="redux"
                     list3="axios"
                     url1=""

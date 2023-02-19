@@ -26,7 +26,7 @@ export default function Footer() {
 
     return (
         <Start1>
-            <div>
+            <div id="footer">
                 <Start2>
                     <p>Let's work together on <br />your next product.</p>
                 </Start2>
