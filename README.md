@@ -13,8 +13,8 @@ Workintech programını tamamladığında şirketler yaptığın bu projeye de b
 
 ### Görev 1: Projenizin set-up'ını yapın.
 
-- [ ] `npx create-react-app web-sayfam` komutuyla boş bir çalışma başlatabilirsin.
-- [ ] Oluşturulan `web-sayfam` klasörüne girin.
+- [x] `npx create-react-app web-sayfam` komutuyla boş bir çalışma başlatabilirsin.
+- [x] Oluşturulan `web-sayfam` klasörüne girin.
 - [ ] `npm` i kullanarak, kullanacağın kütüphaneleri projene ekleyebilirsin. Örneğin:
   - `yup`
   - `axios`
@@ -27,7 +27,7 @@ Workintech programını tamamladığında şirketler yaptığın bu projeye de b
 [Tasarımlar](https://www.figma.com/file/KlZDcmdseABJe9KHsPJ8lt/s12-design1?node-id=0%3A1) linkinde 3 farklı tasarım var. 
 Hangisini beğendi isen onu kullanabilirsin.
 
-- [ ] Tasarımdaki her bir bölüm için ayrı bir component oluşturun.
+- [x] Tasarımdaki her bir bölüm için ayrı bir component oluşturun.
 - [ ] Her component'in style'ını ayarlayın
 - [ ] Responsive tasarım oluşturun
 

@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.29453742.css",
+    "main.js": "/static/js/main.0b8884a0.js",
+    "static/media/proje_2.jpg": "/static/media/proje_2.5ab5e39b0a26fbb51549.jpg",
+    "static/media/proje_3.jpg": "/static/media/proje_3.2f540e59e004323401c9.jpg",
+    "static/media/proje_1.jpg": "/static/media/proje_1.82a2f5dffbe15b4fedaf.jpg",
+    "static/media/seversin.jpg": "/static/media/seversin.03f0e61653b8d541f3b5.jpg",
+    "index.html": "/index.html",
+    "main.29453742.css.map": "/static/css/main.29453742.css.map",
+    "main.0b8884a0.js.map": "/static/js/main.0b8884a0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.29453742.css",
+    "static/js/main.0b8884a0.js"
+  ]
+}
