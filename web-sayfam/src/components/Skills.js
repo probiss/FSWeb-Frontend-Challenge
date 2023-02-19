@@ -4,12 +4,11 @@ import "../Styles/Skills.css";
 
 export default function Skills() {
     return (
-        <div >
-            <div className="skill">
+        <div>
+            <div className="skills">
                 <h1 className="div-h1"> Skills </h1>
             </div>
-            <div className="able-container"
-            >
+            <div className="skills-container">
                 <Able
                     title="Java Script"
                     body="JavaScript eğitimi süresince 
@@ -28,8 +27,8 @@ export default function Skills() {
                     verilen gün sonu projeleri ile kendimi geliştirmeye çalıştım ve 
                     çalışıyorum.Kariyer olarak güzel yerlerde olmak istiyorum."
                 />
+                <div className="skills-cizgi"></div>
             </div>
-            <div className="cizgi"></div>
         </div>
     )
 }

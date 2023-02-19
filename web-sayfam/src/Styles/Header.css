@@ -1,8 +1,8 @@
 header{
+    display:flex;
+    justify-content: space-between;
     padding-left: 125px;
     padding-right: 175px;
-    height: 516px;
-    display:flex;
 }
 
 .div1{
@@ -19,8 +19,6 @@ header{
     font-weight: 500;
     line-height: 28px;
     gap:10px;
-    margin-top: 0;
-    margin-left: 0;
     padding-top: 88px;
 }
 

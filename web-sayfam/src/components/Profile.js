@@ -23,8 +23,9 @@ export default function Profile() {
                     Optio ut eaque placeat quos ullam alias iste veniam fugiat eveniet. <br/><br/>
                     Quibusdam,dolorum aperiam cum perspiciatis, sed, dolor soluta architecto amet omnis.</p>
                 </div>
+                <div className="cizgi"></div>
             </div>
-            <div className="cizgi"></div>
+            
         </div>
     )
 }

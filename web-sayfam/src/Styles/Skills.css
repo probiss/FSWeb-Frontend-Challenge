@@ -1,17 +1,10 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-    background-color: white;
-}
-
-.skill {
+.skills {
     padding-left: 125px;
     padding-right: 175px;
     padding-top:124px;
 }
 
-.div-h1{
+.skills .div-h1{
     font-size:48px;
     color:#1F2937;
     width: 1039px;
@@ -20,12 +13,17 @@
     line-height: 48px;
 }
 
-.cizgi{
-    background-color: white;
-    border: 1px solid #BAB2E7;
-    width: 1134.08px;
-    padding-left: 130.92px;
+.skills-container {
+    padding-left: 125px;
     padding-right: 175px;
-    margin-left: auto;
-    margin-right: auto;
+    padding-top: 11px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.skills-cizgi{
+    border:1px solid #BAB2E7;
+    width: 1134.08px;
+    margin-top: 42px;
 }

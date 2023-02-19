@@ -2,7 +2,6 @@
     padding-left: 125px;
     padding-right: 175px;
     padding-top: 42px;
-    max-height: 355px;
 }
 
 .profile-title{
@@ -31,7 +30,6 @@
 
 .profile-p1{
     width: 155.65px;
-    height: 180px;
     font-weight: 600;
     font-size: 18px;
     line-height: 36px;
@@ -41,7 +39,6 @@
 
 .profile-p2{
     width: 231.8px;
-    height: 180px;
     font-weight: 400;
     font-size: 18px;
     line-height: 200%;
@@ -55,7 +52,6 @@
     width:137.09px;
     font-weight: 500;
     font-size:30px;
-    height: 28px;
     line-height: 28px;
     color:#4338CA;
 }
@@ -78,4 +74,12 @@
     font-size:18px;
     line-height: 150%;
     color:#6B7280;
+}
+
+.cizgi{
+    background-color: white;
+    border:1px solid #BAB2E7;
+    width: 1134.08px;
+    padding-left: 130.92px;
+    margin-top: 42px;
 }
