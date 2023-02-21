@@ -50,7 +50,7 @@ export default function Footer() {
                                 <input type="email" name="user_email" />
                                 <label>Message</label>
                                 <textarea name="message" />
-                                    <div>
+                                    <div className="toasty">
                                         <button toast onClick={showToastMessage} type="submit" value="Send">Send</button>
                                         <ToastContainer />
                                     </div>
@@ -112,12 +112,12 @@ const StyledContactForm = styled.div`
         margin-top: 1rem;
     }
 
-    div button[type="submit"] {
+    .toasty button[type="submit"] {
         margin-top: 1rem;
         cursor: pointer;
         background-color: #4338CA;
         color: white;
-        width: 100%;
+        width: 400px;
         height: 35px;
         padding: 7px;
         outline: none;
