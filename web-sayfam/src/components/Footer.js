@@ -1,32 +1,17 @@
 import styled from "styled-components"
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 export default function Footer() {
-    const Start1 = styled.div`
-        background-color: #F9F9F9;
-        padding-left: 125px;
-        padding-right: 175px;
+    const showToastMessage = () => {
+        toast.success('Thank You, See You Later😇', {
+            position: toast.POSITION.BOTTOM_LEFT
+        })};
         
-    `
-
-    const Start2 = styled.p`
-        padding-top: 85px;
-        color: #1F2937;
-        width: 540px;
-        font-weight: 600;
-        font-size: 42px;
-        line-height: 125%;
-    `
-    const Start3 = styled.div`
-        padding-top: 62px;
-        display: flex;
-        justify-content: space-between;
-        padding-bottom:  135px;
-    `
-
-
     const form = useRef();
+
     const sendEmail = (e) => {
         e.preventDefault();
 
@@ -47,6 +32,7 @@ export default function Footer() {
                 }
             );
     };
+
     return (
         <Start1>
             <div id="footer">
@@ -64,7 +50,10 @@ export default function Footer() {
                                 <input type="email" name="user_email" />
                                 <label>Message</label>
                                 <textarea name="message" />
-                                <input type="submit" value="Send" />
+                                    <div>
+                                        <button toast onClick={showToastMessage} type="submit" value="Send">Send</button>
+                                        <ToastContainer />
+                                    </div>
                             </form>
                         </StyledContactForm>
                         </div>
@@ -81,54 +70,84 @@ export default function Footer() {
 }
 
 const StyledContactForm = styled.div`
-  width: 400px;
+    width: 400px;
 
-  form {
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-    width: 100%;
-    font-size: 16px;
+    form {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        width: 100%;
+        font-size: 16px;
 
     input {
-      width: 100%;
-      height: 35px;
-      padding: 7px;
-      outline: none;
-      border-radius: 5px;
-      border: 1px solid rgb(220, 220, 220);
+        width: 100%;
+        height: 35px;
+        padding: 7px;
+        outline: none;
+        border-radius: 5px;
+        border: 1px solid rgb(220, 220, 220);
 
-      &:focus {
+        &:focus {
         border: 2px solid rgba(0, 206, 158, 1);
-      }
+        }
     }
 
     textarea {
-      max-width: 100%;
-      min-width: 100%;
-      width: 100%;
-      max-height: 100px;
-      min-height: 100px;
-      padding: 7px;
-      outline: none;
-      border-radius: 5px;
-      border: 1px solid rgb(220, 220, 220);
+        max-width: 100%;
+        min-width: 100%;
+        width: 100%;
+        max-height: 100px;
+        min-height: 100px;
+        padding: 7px;
+        outline: none;
+        border-radius: 5px;
+        border: 1px solid rgb(220, 220, 220);
 
-      &:focus {
+        &:focus {
         border: 2px solid rgba(0, 206, 158, 1);
-      }
+        }
     }
 
     label {
-      margin-top: 1rem;
+        margin-top: 1rem;
     }
 
-    input[type="submit"] {
-      margin-top: 2rem;
-      cursor: pointer;
-      background: #4338CA;
-      color: white;
-      border: none;
+    div button[type="submit"] {
+        margin-top: 1rem;
+        cursor: pointer;
+        background-color: #4338CA;
+        color: white;
+        width: 100%;
+        height: 35px;
+        padding: 7px;
+        outline: none;
+        border-radius: 5px;
+        border: 1px solid rgb(220, 220, 220);
+
+        &:focus {
+        border: 2px solid rgba(0, 206, 158, 1);
+        }
     }
-  }
-`;
+}`;
+
+const Start1 = styled.div`
+background-color: #F9F9F9;
+padding-left: 125px;
+padding-right: 175px;
+`
+
+const Start2 = styled.p`
+padding-top: 85px;
+color: #1F2937;
+width: 540px;
+font-weight: 600;
+font-size: 42px;
+line-height: 125%;
+`
+
+const Start3 = styled.div`
+padding-top: 62px;
+display: flex;
+justify-content: space-between;
+padding-bottom:  135px;
+`
