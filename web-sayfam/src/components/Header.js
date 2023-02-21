@@ -17,8 +17,8 @@ export default function Header() {
                         
                         <div className="links">
                             <a className="a11" href="/#" > Hire me </a>
-                            <a className="a22" href="/#" > <FaGithub className="github" /> Github </a>
-                            <a className="a33" href="/#" > <FaLinkedinIn className="linkedin" /> Linkedin </a>
+                            <a className="a22" href="https://github.com/probiss" > <FaGithub className="github" /> Github </a>
+                            <a className="a33" href="https://www.linkedin.com/in/cihat-bulut-2b2167135/" > <FaLinkedinIn className="linkedin" /> Linkedin </a>
                         </div>
                     </p>
                 </div>
